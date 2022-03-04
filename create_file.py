@@ -4,15 +4,12 @@ Author: Infi_chu
 """
 
 
-
-def create_file():
-    pass
-
 def write_file():
-    pass
+    with open('file.txt','w') as f:
+        f.write("This is test file!\n Success")
 
 
 if __name__ == '__main__':
-    pass
+    write_file()
 
 
