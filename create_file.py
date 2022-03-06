@@ -9,7 +9,8 @@ def write_file():
         f.write("This is test file!\n Success")
 
 
-        
+def getline():
+    pass
 
 
 if __name__ == '__main__':
