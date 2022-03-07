@@ -30,6 +30,12 @@ RUN mkdir /usr/local/python3 && ./configure prefix=/usr/local/python3 && make &&
     && pip3 install virtualenv \
     && ln -s /usr/local/python3/bin/virutalenv /usr/bin/virtualenv
 
+WORKDIR /opt/
+RUN mkdir cicd_backend_test
+
+COPY . /opt/cicd_backend_test
+
+
 
 
 
